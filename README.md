@@ -1,129 +1,129 @@
-# 🎮 2048-SDL
+# 2048 - SDL2 Game 🎮
 
-![C](https://img.shields.io/badge/Language-C-blue)
-![SDL2](https://img.shields.io/badge/Library-SDL2-green)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-Jeu **2048** développé en **langage C** avec la bibliothèque **SDL2**.  
-Projet réalisé dans un cadre **académique (L3 Informatique)** mettant en pratique la programmation graphique et la logique algorithmique.
+![C](https://img.shields.io/badge/Language-C-blue?style=for-the-badge)
+![SDL2](https://img.shields.io/badge/Library-SDL2-green?style=for-the-badge)
+![Windows](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ---
 
-## 🧩 Description
+## 📌 Table of Contents
 
-Le jeu 2048 consiste à déplacer des tuiles sur une grille **4x4** afin de fusionner celles ayant la même valeur.  
-L’objectif est d’atteindre la tuile **2048** tout en maximisant le score.
-
----
-
-## ✨ Fonctionnalités
-
-- Interface graphique avec **SDL2**
-- Déplacements via les **flèches du clavier**
-- Fusion automatique des tuiles
-- Génération aléatoire des tuiles
-- Gestion et sauvegarde du score
-- Détection de fin de partie (Game Over)
+- [About](#about)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Clone](#clone)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
 
 ---
 
-## 🛠️ Technologies utilisées
+## 📝 About
 
-- **Langage** : C  
-- **Bibliothèque graphique** : SDL2  
-- **Compilation** : Makefile  
-- **Système** : Windows  
+**2048-SDL** is a desktop implementation of the classic **2048 game**, developed in **C** using the **SDL2 library**.  
+
+This project demonstrates:
+
+- Game logic implementation
+- Graphics handling with SDL2
+- Event management (keyboard input)
+- File and score management
+
+It was developed as part of **L3 Computer Science coursework**.
 
 ---
 
-## 📁 Structure du projet
+## ✨ Features
 
-mini-projet-main/
+- Graphical interface using **SDL2**
+- Move tiles with **arrow keys**
+- Merge tiles automatically
+- Random tile generation
+- Score tracking and saving
+- Game Over detection
+- Clean and modular C code
+
+---
+
+## 📸 Demo
+
+![2048 SDL Demo](assets/images/demo.gif)  
+*Replace with your own GIF or screenshot of the game.*
+
+---
+
+## ⚙️ Installation
+
+### Requirements
+
+- C compiler (GCC recommended)
+- SDL2 library
+
+### Install SDL2 on Windows
+
+1. Download SDL2: [https://www.libsdl.org/](https://www.libsdl.org/)  
+2. Extract the library  
+3. Set up `include` and `lib` paths in your environment or Makefile
+
+---
+
+## 🚀 Usage
+
+### Compile and Run
+
+terminal 
+make
+./2048
+
+
+## 📥 Clone
+
+To clone the repository:
+
+git clone https://github.com/trrayane/2048-SDL.git
+cd 2048-SDL
+
+## 📁 Project Structure
+
+2048-SDL/
 │── src/
-│ ├── main.c
-│ ├── game.c
-│ └── game.h
+│   ├── main.c
+│   ├── game.c
+│   └── game.h
 │
 │── assets/
-│ ├── images/
-│ └── fonts/
+│   ├── images/
+│   └── fonts/
 │
 │── makefile
 │── README.md
 
-yaml
-Copier le code
 
----
+##  🤝 Contributing
 
-## ⚙️ Installation et exécution (Windows)
+Contributions are welcome!
+Fork the repository
+Create a new branch (git checkout -b feature-name)
+Make your changes
+Commit (git commit -m "Add feature")
+Push (git push origin feature-name)
+Open a Pull Request
 
-### 🔹 Prérequis
-- Compilateur **GCC**
-- Bibliothèque **SDL2** installée
+## 👤 Author
 
-### 🔹 Installation de SDL2
-- Télécharger SDL2 depuis : https://www.libsdl.org/
-- Extraire la bibliothèque
-- Configurer les chemins `include` et `lib` dans votre environnement ou Makefile
-
----
-
-## 🚀 Compilation et lancement
-
-Dans le dossier du projet :
-
-```bash
-make
-Puis :
-
-bash
-Copier le code
-./2048
-📥 Cloner le projet (pour les autres utilisateurs)
-Les utilisateurs peuvent cloner le projet avec la commande suivante :
-
-bash
-Copier le code
-git clone https://github.com/trrayane/2048-SDL.git
-Puis accéder au dossier :
-
-bash
-Copier le code
-cd 2048-SDL
-🎯 Objectifs pédagogiques
-Utilisation d’une bibliothèque graphique en C
-
-Gestion des événements clavier
-
-Implémentation de la logique du jeu 2048
-
-Organisation et structuration d’un projet en C
-
-Utilisation de Git et GitHub
-
-Respect des bonnes pratiques de développement
-
-👤 Auteur
 Rayane Terki
-Étudiant en L3 Informatique
-📧 Email : rayaneterki55@gmail.com
-💻 GitHub : https://github.com/trrayane
+L3 Computer Science Student
+📧 rayaneterki55@gmail.com
+💻 [GitHub](https://github.com/trrayane)
 
-📜 Licence
-Ce projet est sous licence MIT.
-Libre d’utilisation à des fins pédagogiques et éducatives.
+## 📜 License
 
-yaml
-Copier le code
+This project is licensed under the MIT License.
+Free to use for educational and learning purposes.
 
----
 
-## ✅ Dernière commande à faire
-
-```bash
-git add README.md
-git commit -m "Add README with badges and clone instructions"
-git push
